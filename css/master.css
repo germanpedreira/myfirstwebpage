@@ -8,5 +8,5 @@ li:before { content: counters(item, ".") " "; counter-increment: item }
 .img-background {
   width: 300px;
   height: 200px;
-  background-image: url(img/descarga.jfif);
+  background-image: url("../img/descarga.jfif");
 }
