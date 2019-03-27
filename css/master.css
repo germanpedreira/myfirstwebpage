@@ -12,7 +12,7 @@ li:before { content: counters(item, ".") " "; counter-increment: item }
   background-image: url("../img/1.jpg");
   background-size: cover;
   background-repeat:no-repeat;
-  background-position: center left ;
+  background-position: center;
 
 }
 
