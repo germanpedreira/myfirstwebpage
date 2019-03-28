@@ -7,13 +7,12 @@ li:before { content: counters(item, ".") " "; counter-increment: item }
 
 
 .img-background {
-  width: 1500px;
   height: 500px;
   background-image: url("../img/1.jpg");
   background-size: cover;
   background-repeat:no-repeat;
   background-position: center;
-  width: 1000px;
+  width: 500px;
   border-left-style: solid;
   border-right: solid 1px #000000;
   border-top: solid 1px #000000;
