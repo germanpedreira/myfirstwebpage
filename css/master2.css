@@ -1,0 +1,43 @@
+ol {
+  counter-reset: item
+}
+
+li {
+  display: block;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+li:hover {
+  margin-left: 5px;
+}
+
+li:before {
+  content: counters(item, ".") " ";
+  counter-increment: item
+}
+
+body {
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRImCGvkjkm7IvpEjXWLBPFtavXyylJEnPQDjO1sEiV-WxMS7Tc);
+}
+
+.indice {
+  margin-top: 50px;
+  margin-left: calc(50% - 200px);
+  background-image: url(../img/mar.jfif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 400px;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-right-style: solid;
+  border-left-style: solid;
+}
+header {
+  background-color: darkblue;
+  color: white;
+}
