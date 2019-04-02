@@ -1,0 +1,53 @@
+body{
+  background-color: black;
+}
+
+
+h1 {
+  color: orange;
+}
+
+.section-one {
+  margin-top: 0;
+}
+.section-two {
+  margin-top: 200px;
+}
+
+.german {
+  /* padding: 0 */
+  /* background-color: orange; */
+  /* margin-top: 10px; */
+  /* margin-left: 10px; */
+  height: 200px;
+  /* border: 1px solid white; */
+}
+
+.section-two .row .col-lg-3:nth-last-child(2){
+  margin-top: 200px;
+
+}
+
+.section-one .german .alert{
+  -webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+
+.section-one .row .col-lg-3:active {
+  -moz-transform: rotate(5deg);
+-webkit-transform: rotate(5deg);
+-o-transform: rotate(5deg);
+-ms-transform: rotate(5deg);
+transform: rotate(5deg);
+}
+
+.section-one .german .alert:hover {
+  -moz-transform: scale(1.1);
+-webkit-transform: scale(1.1);
+-o-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+}
