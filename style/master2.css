@@ -1,7 +1,9 @@
 ol {
   counter-reset: item
 }
-
+h1{
+  color: blue;
+}
 li {
   display: block;
   -webkit-transition: all 1s ease;
@@ -10,7 +12,16 @@ li {
   -o-transition: all 1s ease;
   transition: all 1s ease;
 }
+.container {
+  border: 1px groove white;
+  /* top: 100; */
+}
 
+[class^=col-md] {
+  margin: 10px;
+  background-color: red;
+
+}
 li:hover {
   margin-left: 5px;
 }
@@ -22,6 +33,11 @@ li:before {
 
 body {
   background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRImCGvkjkm7IvpEjXWLBPFtavXyylJEnPQDjO1sEiV-WxMS7Tc);
+}
+
+button a{
+  text-decoration: none;
+  color: white;
 }
 
 .indice {
